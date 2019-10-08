@@ -13,7 +13,7 @@ def isPrime(number):
 
 
 def test_small_2():
-    assert isPrime(2) == False
+    assert isPrime(2) == True
 
 def test_small_3():
     assert isPrime(3) == True
