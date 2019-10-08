@@ -1,7 +1,15 @@
+from math import sqrt
+
 def isPrime(number):
-    if number%2 == 0:
+    if number <= 1:
         return False
-    return True
+    elif number == 2:
+        return True
+    elif number > 2:
+        for i in range(2, int(sqrt(number))):
+            if number % i == 0:
+                return False
+        return True
 
 
 def test_small_2():
