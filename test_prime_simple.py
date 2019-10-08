@@ -3,7 +3,7 @@ import time
 
 def test_small_2():
     time.sleep(2)
-    assert isPrime(2) == False
+    assert isPrime(2) == True
 
 def test_small_3():
     time.sleep(2)
